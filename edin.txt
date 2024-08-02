@@ -45,6 +45,9 @@ git pull
 ## bash_alias
 ls -lat
 
+git clone https://github.com/djhmateer/phil ...
+
+
 
 
 
