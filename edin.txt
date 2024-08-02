@@ -1,0 +1,13 @@
+# initialize .git on filesystem
+git init
+
+# add a file
+
+git status
+
+# add file(s) to local git
+git add .
+
+# commit
+git commit -m "asdf"
+
