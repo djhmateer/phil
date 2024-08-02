@@ -1,4 +1,5 @@
 # initialize .git on filesystem
+-----
 git init
 
 # add a file
@@ -33,10 +34,42 @@ git push
 
 
 ## change a file
-## setup an alias in ~/.bash_alias
+## setup an alias in ~/.bash_aliases
 # alias p='git add . && git commit -m "auto" && git push'
 
 git pull
 
 # setup default merge stragegy (only need to do once)
 # git config pull.rebase false 
+
+## bash_alias
+ls -lat
+
+
+
+
+## bash_aliasesalias cdd='cd ~/djhmateer.github.io'
+alias cdl='cd /mnt/c/dev/test'
+
+alias p='git add . && git commit -m "auto" && git push'
+alias gs='git status'
+alias gp='git pull'
+
+# default colours are not good for me (green backgrounds for directories)
+alias ls='ls -lat --color=auto'
+
+alias e='explorer.exe .'
+alias c='code .'
+
+alias js='bundle exec jekyll serve --livereload --unpublished'
+alias jsi='bundle exec jekyll serve --livereload --unpublished --incremental'
+
+# https://uly.me/run-jekyll-in-background/
+alias jsu='bundle exec jekyll serve --livereload --unpublished > /dev/null 2>&1 &'
+alias jsui='bundle exec jekyll serve --livereload --unpublished --incremental > /dev/null 2>&1 &'
+
+alias gj='ps -ef | grep jekyll'
+
+alias up='sudo apt update && sudo apt upgrade -y'
+
+alias d='/mnt/c/sharedtools/OpenVSSolution/d.exe'
