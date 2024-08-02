@@ -27,4 +27,11 @@ git branch -M main
 git push -u origin main
 
 ## change a file
+git add .
+git commit -m "asdf"
+git push
 
+
+## change a file
+## setup an alias in ~/.bash_alias
+# alias p='git add . && git commit -m "auto" && git push'
