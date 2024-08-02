@@ -37,3 +37,6 @@ git push
 # alias p='git add . && git commit -m "auto" && git push'
 
 git pull
+
+# setup default merge stragegy (only need to do once)
+# git config pull.rebase false 
