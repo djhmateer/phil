@@ -11,3 +11,20 @@ git add .
 # commit
 git commit -m "asdf"
 
+# it is now inside in the .git folder locally only
+
+## Setup github remotely
+
+# create new repository on github eg phil
+
+
+# push existing repository from command line
+# copied from github
+
+git remote add origin https://github.com/djhmateer/phil.git
+# traditionally it was master...
+git branch -M main
+git push -u origin main
+
+## change a file
+
